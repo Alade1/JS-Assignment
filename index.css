@@ -1,0 +1,65 @@
+* {
+  overflow-x: hidden;
+}
+
+@media (max-width: 600px) {
+  body {
+    padding: 10px;
+  }
+}
+body form {
+  font-size: 15px;
+  font-weight: bold;
+}
+body form .form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  width: 600px;
+  height: 400px;
+  background-color: tomato;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 200px;
+  color: black;
+  padding: 40px;
+}
+@media (max-width: 600px) {
+  body form .form-container {
+    width: 100%;
+    padding: 20px;
+  }
+}
+body form .form-container .first-input #valueOne, body form .form-container .first-input #valueTwo, body form .form-container .second-input #valueOne, body form .form-container .second-input #valueTwo {
+  width: 100%;
+  height: 40px;
+  border-radius: 9px;
+  border: none;
+  font-size: 14px;
+  margin-top: 10px;
+  padding-right: 10px;
+}
+@media (max-width: 600px) {
+  body form .form-container .first-input #valueOne, body form .form-container .first-input #valueTwo, body form .form-container .second-input #valueOne, body form .form-container .second-input #valueTwo {
+    width: 80%;
+    margin-right: 20px;
+  }
+}
+body form .button {
+  margin-top: 20px;
+}
+body form .button .btn, body form .button .btn-2 {
+  height: 50px;
+  width: 90px;
+  background-color: aquamarine;
+  border: none;
+  border-radius: 7px;
+  padding-inline: 5px;
+  margin-right: 6px;
+}
+@media (max-width: 600px) {
+  body form .button .btn, body form .button .btn-2 {
+    height: 30px;
+    width: 40px;
+  }
+}/*# sourceMappingURL=index.css.map */

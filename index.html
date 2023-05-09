@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Addition and Exponential Form</title>
+</head>
+<body>
+    <form>
+        
+        <div class="form-container">
+        <h2>Answer:  <span id="answer"></span></h2>
+        <div class="first-input">
+        <label for ="value"> First Value</label> <br>
+        <input  class="valueOne" id ="valueOne"type="number" placeholder="Enter the first value">
+        </div>
+        <div class="second-input">
+        <label for="value">Second Value</label> <br>
+        <input class="valueTwo" id="valueTwo"type="number" placeholder="Enter the Second Value">
+        </div>
+
+        <div class="button">
+        <button class="btn" onclick="alertUser1(event)"> + </button>
+        <button class="btn-2" onclick="alertUser2(event)"> e </button>
+        <button class="btn-2" onclick="alertUser3(event)"> *</button>
+        <button class="btn-2" onclick="alertUser4(event)"> /</button>
+        <button class="btn-2" onclick="alertUser5(event)"> - </button>
+        <button class="btn-2" onclick="alertUser6(event)"> %</button>
+
+        
+        </div>
+        </div>
+
+
+    </form>
+
+     <script src="main.js"></script>
+     <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    
+</body>
+</html>
