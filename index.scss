@@ -25,7 +25,6 @@ body{
             margin-left: auto;
             margin-right: auto;
             margin-top: 200px;
-            
             color: black;
             padding: 40px;
            
@@ -33,9 +32,9 @@ body{
             .first-input,.second-input{
                 
                 #valueOne, #valueTwo{
-                    @media (max-width: $small) {
-                        width: 80%;
-                       margin-right: 20px;
+                    @media (max-width: $small) { 
+                    width: 80%;
+                    margin-right: 20px;
                         
                       }
                     width: 100%;

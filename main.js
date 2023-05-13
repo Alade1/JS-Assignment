@@ -6,7 +6,6 @@ function alertUser1(event){
     let result = Number(valueOne) + Number(valueTwo);
     answer.innerHTML = result;
     console.log(result);
-
 }
 
 function alertUser2(event){
@@ -57,5 +56,4 @@ function alertUser6(event){
     let result = Number(valueOne) % Number(valueTwo);
     answer.innerHTML=result;
     console.log(result)
-
 }
